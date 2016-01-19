@@ -11,3 +11,9 @@ The advantages of OOP over procedural programming are:
 * Objects / classes can be easily reused in other projects
 * It allows for the development of more complex applications that at the same time flexible.
 * It helps to facilitate programming paradigms such a MVC ( Model, View, Controller)
+
+### Question 2: What is a TDD methodology?
+
+TDD stands for Test Driven Development. From what I understand this methodology involves, a process of creating a series of tests depicting different scenarios / user cases for a particular function to pass against.
+
+The process continues with a cycle of refactoring code and running tests until, the function has passed the test of all the defined user cases.
