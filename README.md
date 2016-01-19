@@ -21,3 +21,7 @@ The process continues with a cycle of refactoring code and running tests until, 
 ### Question 3: In the development cycle of an application or a new feature what would you say is the first step?
 
 Clearly defining what the user requirements are that need to met. This would typically be done with the client or relevant stakeholders. Once this has been done, can we then move onto, planning the technical structure of the application / feature.
+
+### Question 4: What is the difference between a static method and a dynamic method? Provide an example of usage and optionally examples of situations in which either is the best choice.
+
+A static method is one that does not change it properties.
