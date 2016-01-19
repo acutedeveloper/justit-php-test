@@ -17,3 +17,7 @@ The advantages of OOP over procedural programming are:
 TDD stands for Test Driven Development. From what I understand this methodology involves, a process of creating a series of tests depicting different scenarios / user cases for a particular function to pass against.
 
 The process continues with a cycle of refactoring code and running tests until, the function has passed the test of all the defined user cases.
+
+### Question 3: In the development cycle of an application or a new feature what would you say is the first step?
+
+Clearly defining what the user requirements are that need to met. This would typically be done with the client or relevant stakeholders. Once this has been done, can we then move onto, planning the technical structure of the application / feature.
