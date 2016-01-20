@@ -38,8 +38,6 @@ class Crud
     '".$user_data['username']."',
     '".$user_data['password']."')";
 
-    echo $query;
-
     if (mysqli_query($this->db_connect, $query) === TRUE)
     {
       $new_id = mysqli_insert_id($this->db_connect);

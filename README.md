@@ -29,3 +29,76 @@ A static method is one that does not change it properties unlike dynamic which d
 ### Question 5:
 
 I have uploaded my example to this github repositry. A full working version can be seen here: http://php-lamp-104185.nitrousapp.com:3000/justit-php-test/
+
+### Question 6:
+
+### Question 7: What will be the output of each of the echo statements?
+
+Echo 1: 100
+
+Echo 2: 200
+
+```php
+
+class foo
+{
+  public function change1( $input )
+  {
+    $input = 200;
+  }
+  public function change2( $input )
+  {
+    $input->value = 200;
+  }
+}
+class bar
+{
+  public $value;
+}
+
+$obj = new foo();
+$var = new bar();
+
+// Object variable set with a value of 100
+$var->value = 100;
+
+$obj->change1( $var->value );
+echo $var->value;
+// Value 100
+
+$var->value = 100;
+$obj->change2( $var );
+echo $var->value;
+// Value 200
+```
+
+### Question 8: What will be the result of running this script?
+
+An error. $multiply is instaiating a new object.
+run() is a static function.
+To enable the function output a result the public function will have to be converted to a public function. The called using the ->. Code modified below.
+
+```php
+
+class multiply
+{
+  private $multiplier;
+  function __construct( $multiplier )
+  {
+    $this->multiplier = $multiplier;
+  }
+  public function run( $input )
+  {
+    return $input * $this->multiplier;
+  }
+}
+$multiply = new multiply( 20 );
+echo multiply->run( 20 );
+
+```
+
+### Question 9: What is the error in this script?
+
+The switch cases do not have any break; statements.
+
+### Question 10: What is the error in this script?

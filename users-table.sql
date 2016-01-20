@@ -1,11 +1,8 @@
-CREATE TABLE `jit-users` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `firstname` varchar(32) NOT NULL,
-  `lastname` varchar(32) NOT NULL,
-  `username` varchar(32) NOT NULL,
-  `password` varchar(40) NOT NULL,
-  `email` varchar(254) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `password` (`password`),
-  KEY `group` (`group`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
+CREATE TABLE `jit_users` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(128) DEFAULT NULL,
+  `firstname` varchar(128) DEFAULT NULL,
+  `lastname` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;

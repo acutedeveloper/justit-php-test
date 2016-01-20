@@ -5,11 +5,6 @@ class Login
 
   var $error_message;
 
-  function __construct()
-  {
-    // Check login if logged in goto
-  }
-
   function index()
   {
     // Load up the login page
@@ -61,7 +56,6 @@ class Login
     // return to login page
     echo 'You have been logged out';
     header('Location: '.global_url());
-
   }
 
 }

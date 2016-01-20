@@ -16,7 +16,8 @@
         <label for="password">Password</label>
         <input name="password" type="password">
       </p>
-      <input type="submit">    </form>
+      <input type="submit">
+    </form>
 
     <a href="<?php echo global_url('register'); ?>">register account</a>
 
