@@ -6,8 +6,8 @@ OOP stands for Object Oriented Programming. Procedural programming is a process 
 
 The advantages of OOP over procedural programming are:
 
-* With the code being organised into objects / classes, it creates a code base that is easier to maintiain and upgrade
-* Having code broken into objects, that are organised according to their specific function, it allows teams of developers to work in tandem on bigger applications, particularly with the added use of Namespacing.
+* With the code being organised into objects / classes, it creates a code base that is easier to maintain and upgrade
+* Having code broken into objects, that are organised according to their specific function, it allows teams of developers to work in tandem on bigger applications, particularly with the added use of Name spacing.
 * Objects / classes can be easily reused in other projects
 * It allows for the development of more complex applications that at the same time flexible.
 * It helps to facilitate programming paradigms such a MVC ( Model, View, Controller)
@@ -28,9 +28,11 @@ A static method is one that does not change it properties unlike dynamic which d
 
 ### Question 5:
 
-I have uploaded my example to this github repositry. A full working version can be seen here: http://php-lamp-104185.nitrousapp.com:3000/justit-php-test/
+I have uploaded my example to this github repository. A full working version can be seen here: http://php-lamp-104185.nitrousapp.com:3000/justit-php-test/
 
 ### Question 6:
+
+Not sure.
 
 ### Question 7: What will be the output of each of the echo statements?
 
@@ -74,7 +76,7 @@ echo $var->value;
 
 ### Question 8: What will be the result of running this script?
 
-An error. $multiply is instaiating a new object.
+An error. $multiply is instantiating a new object.
 run() is a static function.
 To enable the function output a result the public function will have to be converted to a public function. The called using the ->. Code modified below.
 
@@ -103,4 +105,4 @@ The switch cases do not have any break; statements.
 
 ### Question 10: What is the error in this script?
 
-Again the switch cases do not have any break; statements. This will cause the switch statement to continue
+Again the switch cases do not have any break; statements. This will cause the switch statement to continue.
