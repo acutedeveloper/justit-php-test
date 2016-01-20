@@ -24,4 +24,8 @@ Clearly defining what the user requirements are that need to met. This would typ
 
 ### Question 4: What is the difference between a static method and a dynamic method? Provide an example of usage and optionally examples of situations in which either is the best choice.
 
-A static method is one that does not change it properties.
+A static method is one that does not change it properties unlike dynamic which does.
+
+### Question 5:
+
+I have uploaded my example to this github repositry. A full working version can be seen here: http://php-lamp-104185.nitrousapp.com:3000/justit-php-test/
