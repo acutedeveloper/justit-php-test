@@ -102,3 +102,5 @@ echo multiply->run( 20 );
 The switch cases do not have any break; statements.
 
 ### Question 10: What is the error in this script?
+
+Again the switch cases do not have any break; statements. This will cause the switch statement to continue
