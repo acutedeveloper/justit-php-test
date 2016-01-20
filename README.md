@@ -78,7 +78,7 @@ echo $var->value;
 
 An error. $multiply is instantiating a new object.
 run() is a static function.
-To enable the function output a result the public function will have to be converted to a public function. The called using the ->. Code modified below.
+To enable the function output a result the public static function should be converted to a public function. The called using the ->. Code modified below.
 
 ```php
 
